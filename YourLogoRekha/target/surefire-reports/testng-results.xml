@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matchingMy Store]]>
+    </line>
+    <line>
+      <![CDATA[Title is matchingLogin - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Title is matchingMy account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[WebElement is present[[ChromeDriver: chrome on WINDOWS (54e15854233ddaa81c457f74a025feea)] -> xpath: //a[@class='account']]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement is present[[ChromeDriver: chrome on WINDOWS (54e15854233ddaa81c457f74a025feea)] -> xpath: //a[@class='logout']]]]>
+    </line>
+    <line>
+      <![CDATA[Title is matchingLogin - My Store]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11324" started-at="2020-11-10T03:47:04Z" finished-at="2020-11-10T03:47:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11324" started-at="2020-11-10T03:47:04Z" finished-at="2020-11-10T03:47:15Z">
+      <class name="scripts.TestScripts">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:scripts.TestScripts@50f8360d]" name="precondition" is-config="true" duration-ms="6596" started-at="2020-11-09T22:47:04Z" finished-at="2020-11-09T22:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:scripts.TestScripts@50f8360d]" name="SignIn" duration-ms="4606" started-at="2020-11-09T22:47:10Z" finished-at="2020-11-09T22:47:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingMy Store]]>
+            </line>
+            <line>
+              <![CDATA[Title is matchingLogin - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Title is matchingMy account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[WebElement is present[[ChromeDriver: chrome on WINDOWS (54e15854233ddaa81c457f74a025feea)] -> xpath: //a[@class='account']]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement is present[[ChromeDriver: chrome on WINDOWS (54e15854233ddaa81c457f74a025feea)] -> xpath: //a[@class='logout']]]]>
+            </line>
+            <line>
+              <![CDATA[Title is matchingLogin - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:scripts.TestScripts@50f8360d]" name="postcondition" is-config="true" duration-ms="95" started-at="2020-11-09T22:47:15Z" finished-at="2020-11-09T22:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- scripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
